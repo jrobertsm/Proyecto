@@ -18,10 +18,6 @@
             android:id="@+id/nav_aplicaciones"
             android:icon="@drawable/ic_menu_list"
             android:title="@string/aplicaciones" />
-        <item
-            android:id="@+id/nav_contactos"
-            android:icon="@drawable/ic_menu_contacts"
-            android:title="@string/contactos" />
     </group>
 
 

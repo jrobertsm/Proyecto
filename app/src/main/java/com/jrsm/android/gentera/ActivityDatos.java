@@ -1,7 +1,7 @@
 package com.jrsm.android.gentera;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
 import android.widget.TextView;
 
@@ -16,7 +16,6 @@ public class ActivityDatos extends AppCompatActivity {
         setContentView(R.layout.activity_datos);
 
         tv1 = (TextView) findViewById(R.id.tv1);
-
         telManager = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
 
         StringBuilder sb = new StringBuilder();
@@ -32,10 +31,10 @@ public class ActivityDatos extends AppCompatActivity {
         sb.append("Id suscriptor:").append(telManager.getSubscriberId()).append("\n");
         sb.append("Etiqueta buzón de voz:").append(telManager.getVoiceMailAlphaTag()).append("\n");
         sb.append("Marcación buzón de voz:").append(telManager.getVoiceMailNumber()).append("\n");
-
-
-
-
         tv1.setText(sb.toString());
     }
+
+
+
+
 }
