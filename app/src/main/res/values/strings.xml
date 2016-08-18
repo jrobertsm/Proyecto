@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gentera</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="datos_telefono">Datos Teléfono</string>
+    <string name="title_menu">Centro de Inovación Gentera</string>
+    <string name="llamadas">Llamadas</string>
+    <string name="ubicaciones">Ubicaciones</string>
+    <string name="aplicaciones">Aplicaciones</string>
+    <string name="contactos">Contactos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

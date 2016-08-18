@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_datos"
+            android:icon="@drawable/ic_menu_smartphone"
+            android:title="@string/datos_telefono" />
+        <item
+            android:id="@+id/nav_llamadas"
+            android:icon="@drawable/ic_menu_phone_book"
+            android:title="@string/llamadas" />
+        <item
+            android:id="@+id/nav_ubicaciones"
+            android:icon="@drawable/ic_menu_placeholder"
+            android:title="@string/ubicaciones" />
+        <item
+            android:id="@+id/nav_aplicaciones"
+            android:icon="@drawable/ic_menu_list"
+            android:title="@string/aplicaciones" />
+        <item
+            android:id="@+id/nav_contactos"
+            android:icon="@drawable/ic_menu_contacts"
+            android:title="@string/contactos" />
+    </group>
+
+
+
+</menu>
